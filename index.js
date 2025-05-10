@@ -119,7 +119,7 @@ Order.prototype.orderUrgency = function() {
 };
 
 
-let order = new Order({ name: "Nebyat", email: "nebyat@example.com" }, [
+let order = new Order({ name: "Nebyat", email: "nebyat@gmail.com" }, [
   { productName: "Shoes", quantity: 2, unitPrice: 10 },
   { productName: "T-shirt", quantity: 1, unitPrice: 25 }
 ], "Pending");
